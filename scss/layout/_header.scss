@@ -1,0 +1,27 @@
+#header{
+	background:url(images/img_background_01.png) center 0;
+	.logo{
+		margin-top:65px;
+	}
+
+	h2,h4{
+		color: #FFF;
+	}
+
+	h2{
+		font-size:43px;
+	}
+
+	h4{
+		font-weight: 300;
+	    font-size: 20px;
+	    line-height: 32px;
+	}
+
+	a.btn{
+		color: $blue;
+	    font-size: 20px;
+	    padding: 10px 25px;
+    	margin-top: 30px;
+	}
+}
