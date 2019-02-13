@@ -1,0 +1,81 @@
+.chevron-down{
+	svg{
+		width: 50px;
+	}
+}
+
+.content-wrapper{
+	position:absolute;width: 100%; top:0;
+	height: 100%;
+	    display: flex;
+    flex-direction: column;
+  	
+}
+
+section{
+	position:relative;
+}
+
+#get-cash{
+	background-image: url(images/ic_cash_hand_1.png), url(images/ic_cash_2.png);
+	background-position:center left, center right; 
+	background-repeat:no-repeat;
+
+	h2{
+		text-align: center;
+		color:$blue;
+		width: 100%;
+	}
+
+	.chevron-down{
+		color: $blue;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+}
+
+section{
+	overflow: hidden;
+}
+
+h2{
+	font-size:43px;
+}
+
+h3{
+
+}
+
+h4{
+	font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+h5{
+
+}
+
+img{
+	max-width: 100%;
+}
+
+.cont-1, .cont-2{
+	@include screen(1467px, 2000px) {
+		margin-bottom: 320px;
+	 }
+
+	 @include screen(1345px, 1466px) {
+		margin-bottom: 200px;
+	 }
+}
+
+.last-cont{
+	@include screen(1467px, 2000px) {
+		margin-top: 400px;
+	 }
+
+	 @include screen(1345px, 1466px) {
+		margin-top: 300px;
+	 }
+}

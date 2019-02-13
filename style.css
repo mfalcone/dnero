@@ -8865,22 +8865,73 @@ body {
   font-family: 'Nunito', sans-serif;
   min-height: 100vh; }
 
-#header {
-  background: url(images/img_background_01.png) center 0; }
-  #header .logo {
-    margin-top: 65px; }
-  #header h2, #header h4 {
-    color: #FFF; }
-  #header h2 {
-    font-size: 43px; }
-  #header h4 {
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 32px; }
-  #header a.btn {
+#header .back img {
+  max-width: 100%; }
+#header .logo {
+  margin-top: 65px; }
+#header h2, #header h3, #header h4, #header h5 {
+  color: #FFF; }
+#header a.btn {
+  color: #1671f2;
+  font-size: 20px;
+  padding: 10px 25px;
+  margin-top: 30px; }
+#header .chevron-down {
+  color: #FFF; }
+
+.chevron-down svg {
+  width: 50px; }
+
+.content-wrapper {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
+
+section {
+  position: relative; }
+
+#get-cash {
+  background-image: url(images/ic_cash_hand_1.png), url(images/ic_cash_2.png);
+  background-position: center left, center right;
+  background-repeat: no-repeat; }
+  #get-cash h2 {
+    text-align: center;
     color: #1671f2;
-    font-size: 20px;
-    padding: 10px 25px;
-    margin-top: 30px; }
+    width: 100%; }
+  #get-cash .chevron-down {
+    color: #1671f2;
+    margin-left: auto;
+    margin-right: auto; }
+
+section {
+  overflow: hidden; }
+
+h2 {
+  font-size: 43px; }
+
+h4 {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px; }
+
+img {
+  max-width: 100%; }
+
+@media only screen and (min-width: 1467px) and (max-width: 2000px) {
+  .cont-1, .cont-2 {
+    margin-bottom: 320px; } }
+@media only screen and (min-width: 1345px) and (max-width: 1466px) {
+  .cont-1, .cont-2 {
+    margin-bottom: 200px; } }
+
+@media only screen and (min-width: 1467px) and (max-width: 2000px) {
+  .last-cont {
+    margin-top: 400px; } }
+@media only screen and (min-width: 1345px) and (max-width: 1466px) {
+  .last-cont {
+    margin-top: 300px; } }
 
 /*# sourceMappingURL=style.css.map */
