@@ -4,14 +4,29 @@
 			max-width: 100%;
 		}
 	}
+
+	.logo-wrap{
+		padding-right: 20%;
+		@include max-screen(1024px){
+			padding-right:8%;
+		}
+
+	}
+
 	.logo{
 		margin-top:65px;
+
 	}
 
 	h2,h3,h4,h5{
 		color: #FFF;
 	}
 
+	.cont-2 img{
+		@media screen and (max-width: 768px) {
+			width: 50%;
+		}
+	}
 	
 
 	a.btn{
