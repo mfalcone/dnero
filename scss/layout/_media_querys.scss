@@ -1,0 +1,74 @@
+/*mediaquerys*/
+
+.cont-1, .cont-2{
+	@include screen(1467px, 2000px) {
+		margin-bottom: 320px;
+	 }
+
+	 @include screen(1345px, 1466px) {
+		margin-bottom: 200px;
+	 }
+
+	 @include screen(990px, 1345px) {
+		margin-bottom: 100px;
+	 }
+
+	 @include screen(768px, 989px) {
+		margin-bottom: 20px;
+	 }
+}
+
+.last-cont{
+	@include screen(1467px, 2000px) {
+		margin-top: 400px;
+	 }
+
+	 @include screen(1345px, 1466px) {
+		margin-top: 300px;
+	 }
+
+	 @include screen(768px, 1345px) {
+		margin-top: 150px;
+	 }
+}
+
+@media screen and (max-width: 767px) {
+  .lg-bk{
+  	display: none;
+  }
+  body{
+  	text-align: center;
+  }
+
+  h2{
+  	font-size: 23px;
+  }
+
+  h4{
+  	font-size: 12px;
+  	line-height: normal;
+  }
+
+  #send-money{
+  	.back{
+  		position:absolute;
+  		top:20%;
+  	}
+  	.content-wrapper{
+  		position:inherit;
+  	}
+  }
+
+  footer{
+  	h3, p, .text-right{
+  		text-align: center !important;
+  	}
+  }
+}
+
+@media screen and (min-width: 768px) {
+	.mob-bk{
+		display: none;
+	}	
+
+}

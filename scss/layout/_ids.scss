@@ -1,0 +1,130 @@
+
+/*especific sections */
+
+#header{
+	.back{
+		img{
+			max-width: 100%;
+		}
+	}
+
+	.logo-wrap{
+		padding-right: 20%;
+		@include max-screen(1024px){
+			padding-right:8%;
+		}
+
+	}
+
+	.logo{
+		margin-top:65px;
+
+	}
+
+	.cont-2 img{
+		@media screen and (max-width: 768px) {
+			width: 50%;
+		}
+	}
+	
+
+	a.btn{
+		color: $blue;
+	    font-size: 20px;
+	    padding: 10px 25px;
+    	margin-top: 20px;
+	}
+
+	.chevron-down{
+		color: #FFF;
+	}
+
+}
+
+
+#get-cash{
+	background-image: url(images/ic_cash_hand_1.png), url(images/ic_cash_2.png);
+	background-position:top left, top right; 
+	background-repeat:no-repeat;
+
+	@include screen(768px, 1069px) {
+		background-size:40%;
+	}
+	margin-bottom:100px;
+	h2{
+		text-align: center;
+		width: 100%;
+	}
+
+	.chevron-down{
+		color: $blue;
+	    margin-left: auto;
+	    margin-right: auto;
+	    margin-top:10px;
+	}
+
+	.cont-1{
+		margin-bottom:0;
+	}
+
+	.bottom-text{
+		position:absolute;
+		bottom:0;
+		@include max-screen(768px){
+			position:inherit;
+			text-align: center;
+		}
+	}
+
+	img{
+		@include max-screen(768px){
+    			display: none;
+    		}
+	}
+
+	@include max-screen(768px){
+			background-image: url(images/ic_img_chash_mobile.png);
+			background-size: contain;
+    		background-position: top center;
+    		height:auto;
+    		padding-top: 60%;
+    		
+		}
+
+}
+
+#send-money{
+	.cont-2{
+		.chevron-down{
+			color: #FFF;
+		}
+		.text-right{
+			@include screen(324px, 768px) {
+					margin-top: 22%;
+				 }
+		}
+	}
+}
+
+#you-can-convert{
+	h2{
+		margin-top:60%;
+	}
+}
+
+#the-pro-coins{
+	margin-top:200px;
+}
+
+#no-waste-time{
+	.last-cont{
+		@include max-screen(768px){
+	    			margin-top: 20%;
+	    		}
+		img{
+			@include max-screen(768px){
+	    			display: none;
+	    		}
+		}
+	}
+}

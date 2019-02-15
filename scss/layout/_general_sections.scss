@@ -1,0 +1,18 @@
+/*general sections*/
+section{
+	position:relative;
+	background: #FFFFFF;
+}
+
+.chevron-down{
+	svg{
+		width: 50px;
+	}
+}
+
+.content-wrapper{
+	position:absolute;width: 100%; top:0;
+	height: 100%;
+	    display: flex;
+    flex-direction: column;
+}
